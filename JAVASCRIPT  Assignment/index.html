@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+   
+</head>
+<body>
+   <!--ASSIGNMENT 1 ALERT-->
+    <!--  ques 1: a script to greet your website visitor using JS alert-->   
+    
+    <script>
+      alert("Welcome to the site");
+  </script>
+  <!--ques 2: Write a script to display following message on your web 
+page:
+-->
+  <script>
+    alert("Error please enter a valid password");
+</script>  
+
+<!-- Ques 3: Write a script to display following message on your web page:-->
+<script>
+  alert("Welcome to JS land..\n Happy coding!");
+</script>
+<!-- Ques 4: Write a script to display following messages in sequence:-->
+
+<script>
+  alert("Welcome to JS land..");
+  alert("Happy coding!");
+  
+</script>
+
+
+<!-- Ques 5: Generate the following message through browser’s 
+developer console:-->
+<script>
+  console.log("Welcome to JS land..");
+  </script>
+
+
+<!--ASSIGNMENT 2  Variable for strings-->
+
+<!--Ques 1. Declare a variable called username:-->
+<script>
+var name= "username";
+</script>
+<!--Ques 2. Declare a variable called myName & assign to it a string 
+that represents your Full Name:-->
+<script>
+var myName= "Ramal Rizwan";
+alert(myName);
+</script>
+<!-- Ques 3. Write script to
+a) Declare a JS variable, titled message.
+b) Assign “Hello World” to variable message
+c) Display the message in alert box.-->
+<script>
+  var message="HELLO WORLD";
+  alert(message);
+</script>
+
+<!--Ques 4. Write a script to save student’s bio data in JS variables and 
+show the data in alert boxes:-->
+
+<script>
+  var student_name ="Jhone Doe";
+  var student_age ="15 years old";
+  var student_qualification =" Certified mobile application development";
+  alert(student_name);
+  alert(student_age);
+  alert(student_qualification);
+</script>
+<!--Ques 5. Write a script to display the following alert using one JS 
+variable:-->
+<script>
+
+     
+     alert("PIZZA \n" +" PIZZ \n"+" PIZ \n" +" PI\n " +  " P\n ");
+     </script>
+
+
+
+<!-- Ques:6. Declare a variable called email and assign to it a string that 
+represents your Email Address(e.g. example@example.com). 
+Show the blow mentioned message in an alert box.-->
+
+<script>
+  var email="ramalrizwan19@gmail.com";
+  alert("my email address is, " + email);
+</script>
+
+<!--Ques 7. Declare a variable called book & give it the value “A
+smarter way to learn JavaScript”. Display the following
+message in an alert box:-->
+
+<script>
+  var book="A smarter way to learn JavaScript";
+  alert("I am trying to learn from the book" + book);
+</script>
+
+<!-- Ques 8. Write a script to display this in browser through Js-->
+<script>
+  document.write("Yah! I can write HTML content through javascript");
+</script>
+
+
+<!--Ques 9. Store following string in a variable and show in alert and 
+browser through JS-->
+<script>
+  alert("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬");
+</script>
+
+<!--ASSIGNMENT 3 Variable for numbers-->
+<!--Ques 1. Declare a variable called age & assign to it your age. Show
+your age in an alert box:-->
+<script>
+  var age ="23 years old";
+  alert(age);
+</script>
+
+
+
+<!--3. Declare a variable called birthYear & assign to it your
+birth year. Show the following message in your browser:-->
+
+<script>
+  var birthYear=1998;
+  document.write("My birth year is " + birthYear +"\n  data type of my declared varible is number");
+
+</script>
+
+<!--4. A visitor visits an online clothing store
+www.xyzClothing.com . Write a script to store in variables the following information:
+a. Visitor’s name
+b. Product title
+c. Quantity i.e. how many products a visitor wants to order
+Show the following message in your browser: “John Doe ordered 5 T-shirt(s) on XYZ Clothing store”.-->
+<script>
+var  visitor_Name="John Doe";
+var  Product_Title=" 5 T-shirt(s)";
+var  Quantity="XYZ Clothing store";
+document.write(visitor_Name +" ordered "+Product_Title +" on "+Quantity);
+</script>
+
+
+<!--ASSIGNMENT 4 VARIABLE NAMES: LEGAL & ILLEGAL-->
+
+<!--1. Declare 3 variables in one statement.-->
+<script>
+  var name="RAMAL"; var age="";
+</script>
+
+<!--2: Declare 5 legal & 5 illegal variable names.-->
+
+ <!--legal variable-->
+ <script>
+ var myName= "ABC";
+ age=20;
+ var employee_salary=20000;
+var jobTitle1="manager";
+employee_qualification="graduate";
+</script>
+<!--ILLEGAL variable-->
+<!--
+  var 1rouge; // begins with a number
+var rouge one; // has a space between words
+var rouge*one; // contains special characters
+var var; // JavaScript reserved keyword
+-->
+
+
+<!--3. Display this in your browser
+a) A heading stating “Rules for naming JS variables”
+b) Variable names can only contain ______, ______,
+______ and ______.
+For example $my_1stVariable
+c) Variables must begin with a ______, ______ or
+_____. For example $name, _name or name
+d) Variable names are case _________
+e) Variable names should not be JS _________-->
+<h1> Rules for naming JS variables</h1>
+<script>
+ 
+  document.write("Variable names can only contain number , text, $ and _. For example $my_1stVariable");
+  document.write("Variables must begin with a letter, $ or _. For example $name, _name or name");
+  document.write("Variable names are case sensitive");
+  document.write("Variable names should not be JS keyword");
+
+</script>
+
+<!--ASSIGNMENT 5 MATH EXPRESSIONS-->
+<!--Ques 1: Write a program that take two numbers & add them in a 
+new variable. Show the result in your browser.-->
+<script>
+  var number1= 3;
+  var number2= 5;
+  var number3= number1+number2;
+  document.write("the sum of "+ number1 + " and " + number2+" is " + number3);
+</script>
+
+<!--2. Repeat task1 for subtraction, multiplication, division &
+modulus.-->
+<script>
+  
+  var number1= 5;
+  var number2= 3;
+  var number3= number1-number2;
+  document.write("the subtraction of "+ number1 + " and " + number2+" is " + number3);
+</script>
+
+<script>
+  
+  var number1= 5;
+  var number2= 3;
+  var number3= number1*number2;
+  document.write("the multiplication of "+ number1 + " and " + number2+" is " + number3);
+</script>
+<script>
+  
+  var number1= 5;
+  var number2= 3;
+  var number3= number1/number2;
+  document.write("the division of "+ number1 + " and " + number2+" is " + number3);
+</script>
+<script>
+  
+  var number1= 5;
+  var number2= 3;
+  var number3= number1%number2;
+  document.write("the modulus of "+ number1 + " and " + number2+" is " + number3);
+</script>
+<!--3. Do the following using JS Mathematic Expressions
+a. Declare a variable.
+b. Show the value of variable in your browser like “Value
+after variable declaration is: ??”.
+c. Initialize the variable with some number.
+d. Show the value of variable in your browser like “Initial
+value: 5”.
+e. Increment the variable.
+f. Show the value of variable in your browser like “Value
+after increment is: 6”.
+g. Add 7 to the variable.
+h. Show the value of variable in your browser like “Value
+MATH EXPRESSIONS | JAVASCRIPT
+Page 2 of 9
+after addition is: 13”.
+i. Decrement the variable.
+j. Show the value of variable in your browser like “Value
+after decrement is: 12”.
+k. Show the remainder after dividing the variable’s value 
+by 3. 
+l. Output : “The remainder is : 0”.-->
+
+<script>
+  document.write("Value after variable declaration is undefined"+ "<br>");
+  var initial_Value=5;
+  
+  document.write("Initial value: " + initial_Value +"<br>");
+  var newValue=++initial_Value;
+
+  document.write("Value after increment is: "+newValue +"<br>" );
+  var add= newValue+7;
+  document.write("Value after addition is: "+add +"<br>");
+  var sub=--add;
+  document.write("Value after decrement is: "+sub +"<br>");
+  var mod=sub%3;
+  document.write("The remainder is: "+mod +"<br>");
+</script>
+
+<!--4 Cost of one movie ticket is 600 PKR. Write a script to 
+store
+ticket price in a variable & calculate the cost of buying 5 
+tickets
+to a movie-->
+<script>
+  var ticket_cost=600 *5;
+ 
+  document.write("Total cost of buying 5 tickets to a movie is "+ ticket_cost+" PKR");
+</script>
+<!--5 Write a script to display multiplication table of any 
+number in your browser.-->
+
+<script>
+  var table = 4;
+  var length = 10;
+  var i = 1;
+  
+  document.write("Table of "+ table);
+  for(i = 1; i <= length; i++)
+   document.write("<br>"+i+" * "+table+" = " +(i * table));
+  </script>
+
+  <!--6. The Temperature Converter: It’s hot out! Let’s make a 
+converter based on the steps here.
+a. Store a Celsius temperature into a variable.
+b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+c. Now store a Fahrenheit temperature into a variable.
+d. Convert it to Celsius & output “NNoF is NNoC”.-->
+<script>
+  var Celsius=25;
+  var Fahrenheit=70;
+  Celsius_TO_Fahrenheit=(Celsius*9/5)+32;
+  Fahrenheit_TO_Celsius=(Fahrenheit-32)*5/9;
+  document.write(Celsius+"oC is"+Celsius_TO_Fahrenheit +" oF " +"<br>");
+  document.write(Fahrenheit+"oF is"+Fahrenheit_TO_Celsius +" oC " +"<br>");
+</script>
+
+
+<!--7. Write a program to implement checkout process of a 
+shopping cart system for an e-commerce website. Store 
+the following in variables  a. Price of item 1
+b. Price of item 2
+c. Ordered quantity of item 1
+d. Ordered Quantity of item 2
+e. Shipping charges
+Compute the total cost & show the receipt in your browser.-->
+<h1>Shopping Cart</h1>
+
+<script>
+  price_item1=650;
+  price_item2=100;
+  Quantity_item1=3;
+  Quantity_item2=7;
+  shipping_charges=100;
+  total_cost=price_item1* Quantity_item1+price_item2 * Quantity_item2+shipping_charges;
+  document.write(" Price of item 1 is "+price_item1 + " <br>");
+  document.write(" Quantity of item 1 is "+Quantity_item1+ " <br>" );
+  document.write(" Price of item 2 is "+price_item2+ " <br>");
+  document.write(" Quantity of item 2 is "+Quantity_item2+ " <br>" );
+  document.write(" Total cost of your order is "+ total_cost+ " <br>" );
+
+</script>
+
+<!--8. Store total marks & marks obtained by a student in 2 
+variables. Compute the percentage & show the result in 
+your browser-->
+<h1>Mark Sheet</h1>
+<script>
+  total_marks=980;
+  marks_obtained=804;
+  percentage=marks_obtained/total_marks*100;
+  document.write("Total marks " + total_marks+ "<br>");
+  document.write("Marks obtained " + marks_obtained+ "<br>");
+  document.write("Percentage " + percentage+ "<br>");
+
+</script>
+
+
+<!--9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a 
+script to convert the total currency to Pakistani Rupees. 
+Perform all calculations in a single expression.
+(Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee 
+and 1 Saudi Riyal = 28 Pakistani Rupee)-->
+<h1>Currency in PKR </h1>
+<script>
+  US_dollar=104.80;
+  Saudi_Riyal=28;
+  total_Pak_currency=10*US_dollar+25*Saudi_Riyal;
+  Document.write(" Total Currency in PKR "+ total_Pak_currency);
+</script>
+
+
+<!--10. Write a program to initialize a variable with some 
+number and do arithmetic in following sequence:
+a. Add 5
+b. Multiply by 10
+c. Divide the result by 2
+Perform all calculations in a single expression-->
+
+<script>
+  var num=3;
+  var new_num=num+ 5*10/2;
+  document.write(" num is 3 ,After add 5 * 10 And / 2 , the new no. is: " + new_num);
+</script>
+
+<!--11. The Age Calculator: Forgot how old someone is? 
+Calculate it!
+a. Store the current year in a variable.
+b. Store their birth year in a variable.
+c. Calculate their 2 possible ages based on the stored 
+values.
+Output them to the screen like so: “They are either NN or NN
+years old”-->
+
+<h1>Age Calculator</h1>
+<script>
+  Current_year=2022;
+  birthYear=1998;
+  age=Current_year-birthYear;
+  document.write("Current year: " + Current_year+"<br>");
+  document.write("Birth year: " + birthYear +"<br>");
+  document.write("Your age is: " + age +"<br>");
+
+</script>
+<!--12. The Geometrizer: Calculate properties of a circle.
+a. Store a radius into a variable.
+b. Calculate the circumference based on the radius, and
+output “The circumference is NN”.
+(Hint : Circumference of a circle = 2 π r , π = 3.142)
+Calculate the area based on the radius, and output “The 
+area is NN”. (Hint : Area of a circle = π r2, π = 3.142)
+-->
+<h2>The Geometrizer</h2>
+<script>
+  var r=20;
+var π =3.142;
+  circumference=2*π*r;
+  area= (π*r)^2;
+  document.write("Radius of a circle "+ r+ " <br>");
+  document.write("The circumference is "+ circumference+"<br>"); 
+  document.write("The area is "+area +"<br>");
+
+</script>
+
+<!--13. The Lifetime Supply Calculator: Ever wonder how
+much a “lifetime supply” of your favorite snack is? 
+Wonder no more.
+a. Store your favorite snack into a variable
+b. Store your current age into a variable.
+c. Store a maximum age into a variable.
+d. Store an estimated amount per day (as a number).
+e. Calculate how many would you eat total for the rest of
+your life.
+Output the result to the screen like so: “You will need 
+NNNN to last you until the ripe old age of NN”.-->
+
+<h1>The Lifetime Supply Calculator</h1>
+<script>
+var favorite_snack="Lays";
+current_age=15;
+est_max_age=65;
+amount_of_snack=3;
+var total=(est_max_age-current_age)*amount_of_snack ;
+document.write("Favourite Snack: " + favorite_snack+ "<br>" );
+document.write("current age: " + current_age + "<br>" );
+document.write("Estimated maxximum age: " + est_max_age + "<br>" );
+document.write("Amount of snack per day: " + amount_of_snack+ "<br>" );
+document.write("You will need "+ total  + favorite_snack+ " to last you until the ripe old age of "+ est_max_age+"<br>" );
+</script>
+
+<!--ASSIGNMENT 6-9 MATH EXPRESSIONS-->
+
+<!--1. Write a program to take a number in a variable, do the
+required arithmetic to display the following result in your
+browser:-->
+<h5>Result</h5>
+    <script>
+      var a=10;
+     
+      document.write("The value of a is " + a);
+      document.write("<br>");
+      document.write("........................................");
+      var inc_a=++a;
+      document.write("<br>");
+      document.write("<br>");
+      document.write("The value of ++a is: "+ inc_a);
+      document.write("<br>");
+      document.write("Now the value of a is: " + inc_a);
+      document.write("<br>");
+      document.write("<br>");
+      var inc_a_2=a++;
+      document.write("The value of a++ is "+  a++);
+      document.write("<br>");
+      document.write("Now the value of a is: " + a++);
+      document.write("<br>");
+      document.write("<br>");
+      var dec_a=--a;
+      document.write("The value of --a is "+  --a);
+      document.write("<br>");
+      document.write("Now the value of a is: " + --a);
+      document.write("<br>");
+      document.write("<br>");
+      var dec_a2=a--;
+      document.write("The value of a-- is "+  a--);
+      document.write("<br>");
+      document.write("Now the value of a is: " + a--);
+
+</script>
+
+<!--2. What will be the output in variables a, b & result after
+execution of the following script:
+var a = 2, b = 1;
+var result = --a - --b + ++b + b--;
+Explain the output at each stage:
+--a;
+--a - --b;
+--a - --b + ++b;
+--a - --b + ++b + b--;-->
+<script>
+  var a=2;
+  var b=1;
+  document.write("a is " + a +"<br>");
+  document.write("b is " + b +"<br>");
+  var result = --a - --b + ++b + b--;
+  document.write("The result is " + result);
+  document.write("Calculation in each step:");
+  document.write("<br>");
+  document.write("<br>");
+  var a=--a;
+  document.write("The value of a is " + a);
+
+</script>
+
+
+
+<!--3. Write a program that takes input a name from user & 
+greet the user.-->
+<script>
+  var name= prompt("what is your name?");
+  alert( "WELCOME " + name);
+</script>
+
+<!--5. Write a program to take input a number from user & 
+display it’s multiplication table on your browser. If user 
+does not enter a new number, multiplication table of 5 
+should be displayed by default.-->
+<script>
+  var table = prompt("enter the table no",5);
+ var length = 10;
+ var defaulttab= 5;
+ var i = 1;
+ if(table!== 5){ 
+ document.write("Table of "+ table);
+
+ for(i = 1; i <= length; i++)
+  document.write("<br>"+table+" * "+i+" = " +(i * table));
+ }
+ else {
+   document.write("Table of "+ defaulttab);
+   document.write("<br>"+defaulttab+" * "+i+" = " +(i * defaulttab));
+ }
+
+</script>
+
+<!--6. Take
+a) Take three subjects name from user and store them in 3 
+different variables.
+b) Total marks for each subject is 100, store it in another 
+variable.
+c) Take obtained marks for first subject from user and 
+stored it in different variable.
+d) Take obtained marks for remaining 2 subjects from user 
+and store them in variables.
+e) Now calculate total marks and percentage and show the 
+result in browser like this.(Hint: user table) -->
+
+<script>
+  var math=prompt("enter your math subject marks ");
+  var english=prompt("enter your math subject marks ");
+  var urdu=prompt("enter your math subject marks ");
+  total_marks=100;
+  
+
+  </script>
+
+<!--ASSIGNMENT 9-11 User Input & Conditional Statement-->
+
+
+<!--1. Write a program to take “city” name as input from user. If 
+user enters “Karachi”, welcome the user like this: 
+“Welcome to city of lights”-->
+<script>
+  var city= prompt("enter your city ?");
+  if(city=== "karachi")
+  {
+  alert( "Welcome to the city of lights ");
+}
+</script>
+
+
+<!--2. Write a program to take “gender” as input from user. If the
+user is male, give the message: Good Morning Sir. If the 
+user is female, give the message: Good Morning Ma’am.-->
+<script>
+var gender= prompt("enter your gender ?"); ;
+  if (gender=== "male"){
+  alert( "Good Morning Sir. ");
+  }
+  else if(gender=== "female")
+  {
+  alert( "Good Morning Ma’am.. ");
+}
+</script>
+
+
+<!--3. Write a program to take input color of road traffic signal 
+from the user & show the message according to this table:-->
+
+<script>
+  var colour= prompt("enter color of road traffic signal  ?"); 
+    if (colour=== "red"){
+    alert( "Must stop ");
+    }
+    else if(colour=== "yellow")
+    {
+    alert( "Ready to move ");
+  }
+  else if(colour=== "green")
+    {
+    alert( "Move now ");
+  }
+  </script>
+
+
+<!--4. Write a program to take input remaining fuel in car (in 
+litres) from user. If the current fuel is less than 0.25litres, 
+show the message “Please refill the fuel in your car”-->
+
+<script>
+  var fuel= prompt("enter your remaining fuel in car (in litres) ?"); 
+    if (fuel< 0.25){
+    alert( "Please refill the fuel in your car ");
+    }
+  </script>
+
+
+
+<!--5. Run this script, & check whether alert message would be
+displayed or not. Record the outputs.
+a. var a = 4;
+if (++a === 5){
+alert("given condition for variable a is true");
+} b. var b = 82;
+if (b++ === 83){
+alert("given condition for variable b is true");
+}
+c. var c = 12;
+if (c++ === 13){
+alert("condition 1 is true");
+}
+if (c === 13){
+alert("condition 2 is true");
+}
+if (++c < 14){
+alert("condition 3 is true");
+}
+if(c === 14){
+alert("condition 4 is true");
+}
+d. var materialCost = 20000;
+var laborCost = 2000;
+var totalCost = materialCost + laborCost;
+if (totalCost === laborCost + materialCost){
+alert("The cost equals");
+}
+e. if (true){
+alert("True");
+}
+if (false){
+alert("False");
+}
+f. if("car" < "cat"){
+alert("car is smaller than cat");
+}
+--> 
+
+<script>
+  var a = 4;
+  if (++a === 5){
+  alert("given condition for variable a is true");
+  } 
+   var b = 82;
+  if (b++ === 83){
+  alert("given condition for variable b is true");
+  }
+   var c = 12;
+  if (c++ === 13){
+  alert("condition 1 is true");
+  }
+  if (c === 13){
+  alert("condition 2 is true");
+  }
+  if (++c < 14){
+  alert("condition 3 is true");
+  }
+  if(c === 14){
+  alert("condition 4 is true");
+  }
+   var materialCost = 20000;
+  var laborCost = 2000;
+  var totalCost = materialCost + laborCost;
+  if (totalCost === laborCost + materialCost){
+  alert("The cost equals");
+  }
+  if (true){
+  alert("True");
+  }
+  if (false){
+  alert("False");
+  }
+ 
+   if("car" < "cat"){
+  alert("car is smaller than cat");
+  }
+</script>
+<!--
+  alert output:
+  1. given condition for variable a is true
+  2.condition 2 is true
+  3.condition 4 is true
+  4.The cost equals
+  5.True
+  6.car is smaller than cat
+-->
+
+
+
+
+<!-- Assignment # 12-13 IF…ELSE & ELSE IF STATEMENT, TESTING SET OF CONDITION -->
+<!--1. Write a program that takes a character (number or string) 
+in a variable & checks whether the given input is a 
+number, uppercase letter or lower case letter. (Hint: ASCII 
+codes:- A=65, Z=90, a=97, z=122).
+-->
+
+<script>
+var ch=prompt("enter a character");
+  if (ch >= "A" && ch <= "Z"){
+          document.write(ch +
+          " is an UpperCase character <br>");
+  }
+        else if(ch >= "a" && ch <= "z"){
+          document.write(ch +
+          " is an LowerCase character <br>");
+        }
+        else
+        { document.write(ch +
+        " is not an aplhabetic character <br>");
+      }
+
+</script>
+<!--2. Write a JavaScript program that accept two integers and
+display the larger. Also show if the two integers are equal.-->
+<script>
+  var a=prompt("enter a first no");
+  var b=prompt("enter a second no");
+if (a > 0 && b > 0 && a > b) {
+document.write("The larger number is " + a );
+} else if (a > 0 && b > 0 && a < b) {
+document.write("The larger number is " + b);
+} else if (a === b && a > 0 && b > 0) {
+document.write("Both numbers are equal!")
+} else {
+  document.write("Please add an integer!");
+
+}
+
+</script>
+
+
+<!--3. Write a program that takes input a number from user & 
+state whether the number is positive, negative or zero.-->
+<script>
+  var num=prompt("Enter any no:");
+  if (num == 0){
+    document.write("THE NUMBER IS ZERO");
+  }
+  else if (num  > 0)
+  {
+    document.write("THE NUMBER IS POSITIVE");
+  }
+  else if (num < 0)
+  {
+    document.write("THE NUMBER IS NEGATIVE");
+  }
+</script>
+
+<!--4. Write a program that takes a character (i.e. string of 
+length 1) and returns true if it is a vowel, false otherwise-->
+<script>
+function vowelChecker (char) {
+  
+  if (char === 'a'||'e'||'i'||'o'||'u') {
+      return "true";
+  }
+  else {
+  return "false";
+  }
+}
+
+console.log (vowelChecker ("e"));
+
+</script>
+
+
+
+
+
+
+<!--6. This if/else statement does not work. Try to fix it:
+var greeting;
+var hour = 13;
+if (hour < 18) {
+greeting = "Good day";
+else
+greeting = "Good evening";
+}
+-->
+<script>
+  var greeting;
+  var hour = 13;
+  if (hour < 18) {
+  document.write (greeting= ("Good day"));
+  }
+  else {
+    document.write (greeting= ("Good evening"));
+  }
+</script>
+
+
+
+
+
+
+<!--Assignment # 14-16 Arrays-->
+
+<!--1. Declare an empty array using JS literal notation to store
+student names in future.
+-->
+<script>
+  var studentName = []
+  </script>
+<!--2. Declare an empty array using JS object notation to store
+student names in future.--> 
+<script>
+var studentName = {}
+</script>
+
+<!--3. Declare and initialize a strings array--> 
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+</script>
+<!--4. Declare and initialize a numbers array.-->
+<script>
+  let marks = [20,40,50];
+  </script>
+ <!--5. Declare and initialize a boolean array.-->
+ <script>
+
+  var myArr= [];
+  var value= 1;
+  for( i=0; i<value;i++){
+myArr.push(false);
+  }
+alert(myArr);
+</script>
+ 
+ <!--6. Declare and initialize a mixed array.
+--> 
+<script>
+  var person_info = ["Ramal", 23, "web development"];
+  </script>
+<!--7. Declare and Initialize an array and store available 
+education qualifications in Pakistan (e.g. SSC, HSC, BCS, 
+BS, BCOM, MS, M. Phil., PhD). Show the listed 
+qualifications in your browser like:-->
+<h1>Qualifications</h1>
+<script>
+  var education_qualification = ["SSC", "HSC", "BSC","BS","BCOM","MS","M.Phil","PhD"];
+document.write(education_qualification+"<br>");
+  </script>
+
+<!--8. Write a program to store 3 student names in an array.Take
+another array to store score of these three students. 
+Assume that total marks are 500 for each student, display 
+the scores & percentages of students like:-->
+<script>
+  var student_name = ["ALI", "ASAD", "FARHAN"];
+  var student_marks = [400, 360, 460];
+document.write(education_qualification);
+  </script>
+
+
+
+
+
+<!--10. Write a program to store student scores in an array & 
+sort the array in ascending order using Array’s sort 
+method.-->
+<script>
+  var student_scores=[40,70,30,50,80,48,69,55];
+  student_scores.sort();
+  document.write(student_scores);
+</script>
+
+<!--11. Write a program to initialize an array with city names. 
+Copy 3 array elements from cities array to selectedCities 
+array.
+-->
+<script>
+  var cities=["karachi", "lahore", "hyderabad","sialkot","rawalpindi","multan","quetta"];
+  document.write("Cities: "+cities+ "<br>");
+  document.write("<br>");
+  var selectedCities=cities.slice(0,3);
+  document.write("Selected Cities: " + selectedCities);
+</script>
+
+<!--12. Write a program to create a single string from the 
+below mentioned array:
+var arr = [“This ”, “ is ”, “ my ”, “ cat”];
+(Use array’s join method)-->
+<script>
+  var arr = ["This" , "is" , " my" , "cat"];
+  document.write("array " +arr+ "<br>");
+  document.write("string:" + arr.join(" "));
+ 
+  </script>
+
+
+
+<!--15. Write a program to store phone manufacturers (Apple,
+Samsung, Motorola, Nokia, Sony & Haier) in an array. 
+Display the following dropdown/select menu in your 
+browser using document.write() method:-->
+<script>
+  var phones=["Apple","Samsung", "Motorola", "Nokia"," Sony" ," Haier"];
+  document.write(phones+"<br>");
+
+
+</script>
+<!--Assignment # 17-20 Arrays and loop -->
+<!--1. Declare and initialize an empty multidimensional array.
+  (Array of arrays)-->
+<script>
+let num = [];
+</script>
+<!--2. Declare and initialize a multidimensional array 
+representing the following matrix:-->
+<script>
+
+  var number1 = [0, 1, 2,3],
+          number2 = [1, 0, 1,2],
+          number3 = [2, 1, 0,1];
+     document.write(number1+ "<br>" + number2 + " <br> "+ number3);
+</script>
+
+<!--3. Write a program to print numeric counting from 1 to 10.-->
+
+<script> 
+var input;
+  for (var input=1; input<=10;input++)
+  {
+    document.write(input);
+  }
+</script>
+<!--4. Write a program to print multiplication table of any 
+number using for loop. Table number & length should be 
+taken as an input from user.-->
+<script>
+  const number = parseInt(prompt('Enter an integer: '));
+
+
+const range = parseInt(prompt('Enter a range: '));
+
+
+for(let i = 1; i <= range; i++) {
+    const result = i * number;
+    document.write(`${number} * ${i} = ${result}`);
+}
+</script>
+<!--5. Write a program to print items of the following array 
+using for loop:
+fruits = [“apple”, “banana”, “mango”, “orange”, 
+“strawberry”]-->
+<script>
+var fruits = new Array("apple", "banana", "mango", "orange", "strawberry");
+
+  var len = fruits.length;	
+  
+  
+  for (var i = 0; i < len; i++) {
+    document.write(fruits[i]+" <br>");
+    document.write();
+  }
+  
+    for(var i = 0; i < fruits.length; i++){
+            document.write("Element at index " + i + ": " + fruits[i] +"<br>");
+  
+  }
+  </script>
+<!--6. Generate the following series in your browser. See 
+example output.
+a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
+e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k-->
+
+ <script>
+ var num=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+  document.write("counting " + num + "<br>");
+  num.reverse();
+  document.write("reverse counting: " + num +"<br>");
+  let even = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+
+document.write("even numbers are ");
+for (var i = 0 ; i <=20; i += 2 ) {
+   document.write(i);
+   
+}
+
+let odd = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+document.write("<br>");
+document.write("odd numbers are ");
+for (var i = 1 ; i <=20; i += 2 ) {
+   document.write(i);
+}
+let series = [2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+document.write("<br>");
+document.write("series ");
+for (var i = 2 ; i <=20; i += 2 ) {
+   document.write(i+"k");
+}
+</script>
+
+<!--8. Write a program to identify the largest number in the 
+given array.
+A = [24, 53, 78, 91, 12].-->
+<script>
+  numbers = [24, 53, 78, 91, 12];
+ const largest_number = Math.max(...numbers);
+ 
+ document.write("array items= " + numbers+ "<br>");
+ document.write("Largest Value: "+ largest_number); 
+ </script>
+<!--9. Write a program to identify the smallest number in the 
+given array.
+A = [24, 53, 78, 91, 12]-->
+<script>
+  
+const numbers = [24, 53, 78, 91, 12];
+
+const smallest_number = Math.min(...numbers);
+
+
+document.write("array items= " + numbers+ "<br>");
+ document.write("Smaalest Value: "+ smallest_number); 
+
+
+</script>
+
+<!--10. Write a program to print multiples of 5 ranging 1 to 
+100.-->
+<script>
+  for (x=1; x <= 100; x++)
+if( x % 5 == 0 ){
+      document.write( x +",");
+    }
+</script>
+
+
+</body>
+</html>
